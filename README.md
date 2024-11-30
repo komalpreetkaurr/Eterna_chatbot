@@ -1,7 +1,3 @@
-Certainly! Here's an example of a README for "Eterna Chatbot":
-
----
-
 # Eterna Chatbot
 
 Welcome to the **Eterna Chatbot** project! This repository contains the source code for the Eterna Chatbot, an intelligent conversational agent designed to assist users in various tasks, answer questions, and engage in meaningful dialogue.
@@ -24,6 +20,8 @@ Ensure that you have the following installed:
 
 - Python (>= 3.8)
 - pip (Python package manager)
+- Node.js (>= 14.0) for frontend development (if applicable)
+- npm (Node package manager)
 
 ### Clone the Repository
 
@@ -32,7 +30,7 @@ git clone https://github.com/yourusername/eterna-chatbot.git
 cd eterna-chatbot
 ```
 
-### Install Dependencies
+### Install Backend Dependencies
 
 Install the required Python libraries by running:
 
@@ -40,23 +38,46 @@ Install the required Python libraries by running:
 pip install -r requirements.txt
 ```
 
+### Install Frontend Dependencies
+
+If you're running a frontend interface, navigate to the `frontend/` directory and install the required dependencies:
+
+```bash
+cd frontend
+npm install
+```
+
 ### Configuration
 
 Before running the chatbot, you may need to configure certain parameters like API keys, database connections, or environment variables. Check the `.env.example` file and create a `.env` file with your credentials.
 
-### Running the Chatbot
+### Running the Backend (Chatbot Server)
 
-Once the installation is complete, you can start the chatbot with:
+Once the backend is set up, you can start the chatbot server with:
 
 ```bash
 python run_chatbot.py
 ```
 
-This will start the chatbot server, and you can interact with it through the console or integrate it with a front-end interface.
+This will start the chatbot server, and it will listen for incoming requests from the frontend or any other client.
+
+### Running the Frontend (Web Interface)
+
+To open the chatbot in a browser-based interface, follow these steps:
+
+1. Ensure the backend server is running (see the previous step).
+2. Navigate to the `frontend/` directory and start the local development server:
+
+   ```bash
+   cd frontend
+   npm start
+   ```
+
+3. Open your web browser and go to `http://localhost:3000`. You should see the Eterna Chatbot interface where you can interact with the bot.
 
 ## Usage
 
-Once the chatbot is running, you can interact with it in various ways, such as:
+Once the chatbot is running (via backend or full application), you can interact with it in various ways, such as:
 
 - **Text-based interaction:** Ask the bot questions or give it commands, and it will respond with appropriate answers.
 - **Voice integration:** With additional configuration, you can enable voice input/output using libraries like SpeechRecognition and pyttsx3.
@@ -82,8 +103,6 @@ We welcome contributions! To contribute to Eterna Chatbot:
 
 Please ensure that your code adheres to the existing style guidelines and includes tests if necessary.
 
-
 ## Support
 
 If you encounter any issues, please open an issue on the repository, and we will respond as soon as possible.
-
