@@ -1,0 +1,239 @@
+/* Chat container */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 10px auto; /* Further reduced margin */
+  padding: 4px; /* Further reduced padding */
+  background-color: RGB(240, 240, 240);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 450px;
+}
+
+/* Chat header */
+.chat-header {
+  display: flex;
+  align-items: center;
+  padding: 4px; /* Further reduced padding */
+  background-color: #0f2376; /* Fallback background color */
+  background-image: url('./assests/mounta.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  border-radius: 8px 8px 0 0;
+}
+
+
+.chat-header h1 {
+  color: white;
+  font-size: 16px; /* Further reduced font size */
+  margin-left: 4px; /* Reduced margin */
+}
+
+/* Bot Avatar */
+.bot-avatar {
+  width: 28px; /* Reduced size */
+  height: 28px; /* Reduced size */
+  border-radius: 50%;
+}
+
+/* Chat history */
+.chat-history {
+  flex-grow: 1;
+  padding: 4px; /* Further reduced padding */
+  overflow-y: auto;
+  max-height: 400px;
+  margin-bottom: 4px; /* Further reduced margin */
+}
+
+/* Chat messages */
+.chat-message {
+  margin-bottom: 8px; /* Increased space between messages */
+  padding: 2px 6px; /* Further reduced padding */
+  border-radius: 8px;
+  font-size: 12px; /* Reduced font size */
+  max-width: 75%;
+  word-wrap: break-word;
+}
+
+.bot-message {
+  background-color: #c8c8cc; 
+  color: #333;
+  align-self: flex-start;
+  margin-right: auto;
+  padding: 2px 4px; /* Further reduced padding */
+  max-width: 90%;
+  word-wrap: break-word;
+  border-radius: 0px 20px 20px 20px;
+  box-shadow: 0 4px 8px rgb(15, 35, 118,0.1), 0 6px 5px rgba(106, 107, 106, 0.3); /* Stronger elevation */
+}
+
+
+.user-message {
+  background:  #050c29; 
+  color: #ffffff;
+  align-self: flex-end;
+  text-align: right;
+  margin-left: auto;
+  border-radius: 20px 0px 20px 20px;
+}
+
+
+/* Quick replies (buttons) */
+.quick-replies {
+  margin-top: 2px; /* Further reduced margin */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px; /* Reduced space between buttons */
+}
+
+.quick-reply-button {
+  background-color: #c8ccca;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 6px 9px; /* Further reduced padding for buttons */
+  border-radius: 4px;
+  font-size: 10px; /* Reduced font size */
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.quick-reply-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  padding: 2px; /* Thickness of the gradient border */
+  background: linear-gradient(45deg, #0f2376,  #0a4e21);
+  border-radius: 20px; /* Ensure the gradient matches the border radius */
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+/* Typing indicator */
+.typing-indicator p {
+  font-style: italic;
+  color: #888;
+  margin-top: 2px; /* Further reduced margin */
+}
+
+/* Input container */
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4px; /* Further reduced padding */
+  border-top: 1px solid #ddd;
+  position: relative;
+  margin-top: auto;
+}
+
+.input-field {
+  flex-grow: 1;
+  padding: 10px 6px; /* Further reduced padding */
+  border-radius: 50px;
+  border: 1px solid #ddd;
+  font-size: 12px; /* Reduced font size */
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #050c29;
+  outline: none;
+}
+
+/* Send button */
+.send-button {
+  background-color: #050c29;
+  color: white;
+  border: none;
+  padding: 8px 10px; /* Further reduced padding */
+  margin-left: 4px; /* Further reduced margin */
+  border-radius: 20px;
+  font-size: 12px; /* Reduced font size */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.send-button i {
+  display: none; /* Initially hide the icon */
+  font-size: 14px; /* Reduced icon size */
+  opacity: 0; /* Make the icon invisible initially */
+  color: white; /* Icon color */
+  transition: opacity 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: transparent; /* Transparent background on hover */
+  transform: scale(2.2) translateX(-15px); /* Slightly scale up and move to the left */
+}
+
+.send-button:hover i {
+  display: block; /* Show the icon when hovered */
+  opacity: 1; /* Fade in the icon */
+  color: #050c29; /* Icon turns green on hover */
+  transform: rotate(360deg); /* Rotate the icon for cool effect */
+}
+
+.send-button:hover span {
+  opacity: 0; /* Fade out the text when hovered */
+}
+
+.send-button span {
+  display: block; /* Show the text by default */
+  font-size: 12px; /* Reduced font size */
+  transition: opacity 0.3s ease; /* Smooth text fade out */
+}
+
+/* Disabled button */
+.send-button:disabled {
+  background-color: #c4e1c4;
+}
+
+.send-button .spinner {
+  border: 2px solid white;
+  border-top: 2px solid #4CAF50;
+  border-radius: 50%;
+  width: 14px; /* Reduced size */
+  height: 14px; /* Reduced size */
+  animation: spin 1s linear infinite;
+}
+
+/* Spinner animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.link-button {
+  display: inline-block;
+  background-color: #050c29;
+  color: white;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.link-button:hover {
+  background-color: #0a4e21;
+  transform: scale(1.05);
+}
+

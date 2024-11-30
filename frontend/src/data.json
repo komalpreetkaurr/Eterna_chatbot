@@ -1,0 +1,178 @@
+{
+  "Admissions": {
+    "info": "Ready to unlock your future? Let me guide you through the admission journey, step by step!",
+    "url": "https://portal.eternaluniversity.edu.in/register",
+    "follow_up": false 
+  },
+  "Fees": {
+    "info": "The fee structure includes tuition, additional charges, and payment deadlines for the current academic year. Let me know if you need more details!",
+    "url": "https://eternaluniversity.edu.in/fee",
+    "follow_up": false  
+  },
+  "Colleges": {
+    "Dr Khem singh gill akal college of agriculture": {
+      "info": "Dr. Khem Singh Gill College is an agricultural college offering a variety of undergraduate and postgraduate programs in agriculture, food science, and related fields.",
+      "url": "https://eternaluniversity.edu.in/college/aca"
+    },
+    "Akal college of engineering & technology": {
+      "info": "ACET is an engineering college offering programs in various engineering disciplines, focusing on technical education and innovation.",
+      "url": "https://eternaluniversity.edu.in/college/acet"
+    },
+    "Akal college of basic sciences ": {
+      "info": "ACBS provides foundational education in basic sciences, offering courses in subjects like physics, chemistry, biology, and mathematics.",
+      "url": "https://eternaluniversity.edu.in/college/acbs"
+    },
+    "Akal college of health & allied sciences": {
+      "info": "UACHAS focuses on applied sciences and healthcare-related programs, preparing students for careers in medical, health, and social service fields.",
+      "url": "https://eternaluniversity.edu.in/college/achas"
+    },
+    "Akal college of education": {
+      "info": "ACE offers programs in education, preparing future educators with a comprehensive understanding of teaching methods and educational leadership..",
+      "url": "https://eternaluniversity.edu.in/college/ace"
+    },
+    "Akal college of arts & social sciences ": {
+      "info": "ACASS provides programs in arts and social sciences, focusing on humanities, social sciences, and liberal arts, with research opportunities in various disciplines.",
+      "url": "https://eternaluniversity.edu.in/college/acass"
+    },
+    "Akal college of commerce, economics & management": {
+      "info": "ACECM offers undergraduate and postgraduate programs in business, commerce, and economics, focusing on management, finance, and entrepreneurial skills.",
+      "url": "https://eternaluniversity.edu.in/college/acecm"
+    },
+    "follow_up": true 
+  }, 
+  "Scholarships": {
+    "info": "Scholarships are available based on merit and need. Details on eligibility and application deadlines are provided. Ask for more info if needed!",
+    "url": "https://eternaluniversity.edu.in/content/university-scholarships",
+    "follow_up": false  
+  },
+  "Careers": {
+    "info": "Explore various career opportunities, internships, and job placements. Guidance and support are available to help you succeed. Ask for more info!",
+    "url": "https://eternaluniversity.edu.in/content/career",
+    "follow_up": false  
+  },
+  "Campus Facilities": {
+    "info": " Our campus features state-of-the-art libraries, advanced labs, sports facilities, student centers, and more to enhance your academic and social experience. Let me know if you need further details",
+    "url": "https://eternaluniversity.edu.in/content/university-campus",
+    "follow_up": false  
+  },
+  "Contact Us": {
+    "info": "Thank you for reaching out! If you have any more questions or need further assistance, feel free to contact us at any time. We're here to help! Admission Helpline :- 7833911763, 9816640660 Email :- contact@eternaluniversity.edu.in",
+    "url": "https://eternaluniversity.edu.in/ContactUs",
+    "follow_up": false  
+  },
+  "Location": {
+    "info": "Visit us at: Eternal University , Baru Sahib, Distt, near Rajgarh, Himachal Pradesh 173101 Phone: +91-9816400624, +91-9816640660 We look forward to seeing you!",
+    "url": "https://www.google.com/maps/place/Baru+Sahib,+Himachal+Pradesh+173001/@30.7546337,77.2901809,16z/data=!3m1!4b1!4m6!3m5!1s0x390f713724ed5af7:0xdd16231bf3210403!8m2!3d30.7536737!4d77.296542!16s%2Fg%2F12hw6r8c5?hl=en&entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D",
+    "follow_up": false  
+  },
+  "Administration": {
+   "Chancellor": {
+      "info": "Chancellor Info provides details about the university's Chancellor, who is typically the ceremonial head of the university, overseeing its governance and academic progress.",
+      "url": "chrome-extension://gphandlahdpffmccakmbngmbjnjiiahp/https://eternaluniversity.edu.in/docs/Chancellor.pdf"
+    },
+    "Vice-Chancellor": {
+      "info": "Vice Chancellor Info offers information about the Vice-Chancellor, who is the chief executive officer of the university, responsible for academic administration and overall institutional development.",
+      "url": "chrome-extension://gphandlahdpffmccakmbngmbjnjiiahp/https://eternaluniversity.edu.in/docs/VC.pdf"
+    },
+    "Registrar": {
+      "info": "Registrar is responsible for managing the administrative functions of the university, including student admissions, records, and maintaining official documents. ",
+      "url": " chrome-extension://gphandlahdpffmccakmbngmbjnjiiahp/https://eternaluniversity.edu.in/docs/Registrar.pdf"
+    },
+    "Pro-Vice-Chancellor": {
+      "info": "Pro Vice Chancellor Info refers to the Pro Vice-Chancellor, who supports the Vice-Chancellor and often oversees specific aspects of university administration or academic programs.",
+      "url": "chrome-extension://gphandlahdpffmccakmbngmbjnjiiahp/https://eternaluniversity.edu.in/docs/PVC.pdf"
+    },
+    "Financial Officer": {
+      "info": "Finance Officer manages the university�s finances, including budgeting, accounting, financial planning, and reporting, ensuring the institution's financial health.",
+      "url": "chrome-extension://gphandlahdpffmccakmbngmbjnjiiahp/https://eternaluniversity.edu.in/docs/FinanceOffice.pdf"
+    },
+    "Controller of Examination": {
+      "info": "Controller of Examination oversees the examination process, ensuring that exams are conducted fairly, results are published on time, and academic standards are maintained.",
+      "url": "chrome-extension://gphandlahdpffmccakmbngmbjnjiiahp/https://eternaluniversity.edu.in/docs/COE.pdf"
+    },
+    "Ombudsperson": {
+      "info": "Ombudsperson serves as an independent authority to address grievances and complaints from students, staff, and faculty, ensuring fairness and justice in university matters.",
+      "url": "chrome-extension://gphandlahdpffmccakmbngmbjnjiiahp/https://eternaluniversity.edu.in/docs/PVC.pdf"
+    },
+    "Chief Vigilance Officer": {
+      "info": "Chief Vigilance Officer is responsible for overseeing and ensuring that the university�s operations are conducted ethically, without corruption or misconduct."
+    },
+    "Internal Complaint": {
+      "info": "Internal Complaint refers to the system through which students, staff, or faculty can file complaints related to university activities, including academic, administrative, or personal issues."
+    },
+    "Academic leadership": {
+      "info": "Academic Leadership refers to the team of senior academic leaders, such as Deans and Department Heads, who guide and manage the academic direction of the university",
+      "url": "chrome-extension://gphandlahdpffmccakmbngmbjnjiiahp/https://eternaluniversity.edu.in/docs/Academic_Leadership.pdf"
+    },
+    "committee and council": {
+      "info": "Committee and Council includes various advisory bodies within the university, such as academic councils, disciplinary committees, and policy-making groups.",
+      "url": "https://eternaluniversity.edu.in/content/CMCC"
+    },
+    "follow_up": true  
+  },
+  "FAQs": {
+   "What programs are offered at Eternal University?": {
+      "info": "Eternal University offers undergraduate and postgraduate programs in Engineering, Agriculture, Nursing, Education, Management, and Science, along with Ph.D. and diploma courses. It emphasizes rural development, value-based education, and research-driven learning",
+      "url": "https://eternaluniversity.edu.in/Academics"
+    },
+    "Is Eternal University exclusively for girls?": {
+      "info": " Eternal University is indeed a girls-only institution. It is affiliated with the Kalgidhar Trust and provides education primarily to women, focusing on their holistic development in a spiritually enriching environment."
+    },
+    "What are the admission requirements?": {
+      "info": "Eternal University’s admission requirements vary by program. For undergraduate courses, candidates must have completed 10+2 with relevant subjects and meet minimum marks criteria. Some programs require an entrance exam, like JEE for B.Tech. Postgraduate admissions require a relevant undergraduate degree with at least 50% marks, and some programs may require entrance exams like CAT for MBA. Ph.D. applicants must have a Master’s degree with 55% marks and may need to clear an entrance exam or interview. Applications are typically submitted online with an application fee, and counseling may be part of the process"
+    },
+    "How do I apply for admission? ": {
+      "info": "To apply for admission to Eternal University, visit the official website and fill out the online application form for your desired program. Upload the necessary documents (mark sheets, ID proof, photos), pay the application fee, and submit the form. Some programs may require an entrance exam or interview. After selection, follow further instructions for fee payment and document verification to confirm your admission",
+      "url": "https://portal.eternaluniversity.edu.in/register"
+    },
+    "Is there an application fee?": {
+      "info": "Eternal University does not charge an application fee for admission."
+    },
+    "What is the selection process?": {
+      "info": "The selection process at Eternal University involves submitting an online application, followed by either an entrance exam (for some programs) or merit-based selection. Shortlisted candidates may need to attend a counseling session or interview. Final selection is based on exam scores, merit, and interviews, after which candidates undergo document verification and fee payment to confirm admission."
+    },
+    "Are there scholarships available?": {
+     "info": "Scholarships are available based on merit and need. Details on eligibility and application deadlines are provided. Ask for more info if needed!",
+     "url": "https://eternaluniversity.edu.in/content/university-scholarships"
+    },
+    "Who can I contact for more information?": {
+      "info": "Phone: +91-9816400624, +91-9816640660 We look forward to seeing you!"
+    },
+    "How will I know if my application has been received?": {
+      "info": "Once you submit your application to Eternal University, you should receive a confirmation email or SMS acknowledging the receipt of your application. This confirmation will typically include details about the next steps in the admission process. If you do not receive confirmation, it’s a good idea to check your spam folder or contact the admissions office to ensure your application was successfully received."
+    },
+    "follow_up": true  
+  },
+  "Courses": {
+   "Agriculture": {
+      "info": "Offers a range of programs in agricultural sciences, including B.Sc. and M.Sc. degrees in areas like agronomy, horticulture, and food technology.",
+      "url": "https://eternaluniversity.edu.in/CollegeCourses?collegename=dr-khem-singh-gill-akal-college-of-agriculture"
+    },
+    "Teaching & Education": {
+      "info": "Provides programs focused on educational theory, teaching methods, and educational leadership, preparing students for careers in education.",
+      "url": "https://eternaluniversity.edu.in/CollegeCourses?collegename=akal-college-education"
+    },
+    "Sciences": {
+      "info": "Offers programs in basic sciences like physics, chemistry, mathematics, and biology at both undergraduate and postgraduate levels.",
+      "url": "https://eternaluniversity.edu.in/CollegeCourses?collegename=akal-college-basic-sciences"
+    },
+    "Engineering": {
+      "info": "Includes undergraduate and postgraduate programs in engineering disciplines like computer science, mechanical, and civil engineering.",
+      "url": "https://eternaluniversity.edu.in/CollegeCourses?collegename=akal-college-engineering-technology"
+    },
+    "Arts & Social sciences": {
+      "info": "Offers programs in humanities, social sciences, and arts, including literature, sociology, psychology, and history.",
+      "url": "https://eternaluniversity.edu.in/CollegeCourses?collegename=akal-college-arts-social-sciences"
+    },
+    "Accounting & Commerce": {
+      "info": "Offers undergraduate and postgraduate programs in economics, commerce, and business administration.",
+      "url": "https://eternaluniversity.edu.in/CollegeCourses?collegename=akal-college-eco-comm-management"
+    },
+    "Nursing": {
+      "info": "Offers courses related to health sciences, social work, and applied sciences, preparing students for careers in these fields.",
+      "url": "https://eternaluniversity.edu.in/CollegeCourses?collegename=akal-college-health-allied-sciences"
+    },
+    "follow_up": true  
+  }
+
+}
